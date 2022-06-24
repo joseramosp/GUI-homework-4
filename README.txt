@@ -4,9 +4,9 @@ Assignment:     Homework 4
 
 GitHub URL where my application resides: 
 
-* https://joseramosp.github.io/GUI-homework-2/
+* https://joseramosp.github.io/GUI-homework-4/
 
 Link to my GitHub repository:
 
-* https://github.com/joseramosp/GUI-homework-2
+* https://github.com/joseramosp/GUI-homework-4
 
