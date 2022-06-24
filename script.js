@@ -120,3 +120,10 @@ $(function() {
         }
     });
 });
+
+$(function(){
+    $("#tabs").tabs();
+    $(".status-message").live( "click", function() {
+        $("#tabs").tabs().remove();
+    });
+});

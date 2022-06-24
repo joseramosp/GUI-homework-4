@@ -117,3 +117,9 @@ form .error {
 .ui-icon-circle-close {
     cursor:pointer;
 }
+.status-message {
+    padding:11px 8px 10px; margin:0; border:1px solid #aaa;
+    position:absolute; right:10px; top:9px; font-size:11px;
+    background-color:#fff;
+    cursor:pointer;
+}
