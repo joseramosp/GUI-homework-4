@@ -9,7 +9,7 @@ function validate (form) {
         messages: {
             min_multiplier: "Please enter a minimum multiplier.",
             max_multiplier: "Please enter a maximum multiplier.",
-            max_multiplicand: "Please enter a minimum multiplicand.",
+            min_multiplicand: "Please enter a minimum multiplicand.",
             max_multiplicand: "Please enter a maximum multiplicand.",
         },
         success: function(form) {
