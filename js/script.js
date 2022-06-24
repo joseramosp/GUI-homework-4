@@ -1,26 +1,17 @@
 function validate (form) {
     $("#form").validate({
-        // Specify validation rules
         rules: {
-            // The key name on the left side is the name attribute
-            // of an input field. Validation rules are defined
-            // on the right side
-            "min_multiplier": {
-                required: true
-            },
+            min_multiplier: "required",
             max_multiplier: "required",
             min_multiplicand: "required",
             max_multiplicand: "required",
         },
-        // Specify validation error messages
         messages: {
             min_multiplier: "Please enter a minimum multiplier.",
+            max_multiplier: "Please enter a maximum multiplier.",
+            max_multiplicand: "Please enter a minimum multiplicand.",
+            max_multiplicand: "Please enter a maximum multiplicand.",
         },
-        // Make sure the form is submitted to the destination defined
-        // in the "action" attribute of the form when valid
-        // submitHandler: function(form) {
-        //     form.submit();
-        // }
         success: function(form) {
             $("#min_multiplier-error.error").hide();
             $("#max_multiplier-error.error").hide();
