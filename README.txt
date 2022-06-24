@@ -10,3 +10,7 @@ Link to my GitHub repository:
 
 * https://github.com/joseramosp/GUI-homework-4
 
+Sources:
+
+* For how to add a close tap button: https://stackoverflow.com/questions/14357614/add-close-button-to-jquery-ui-tabs
+* To get the index of the current table: https://stackoverflow.com/questions/31872444/close-jquery-ui-tab-on-dialog-button-click
