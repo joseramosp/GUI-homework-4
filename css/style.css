@@ -1,0 +1,119 @@
+body {
+    background-color:darksalmon;
+    /* background-image: url("../images/un-verano-sin-ti-background.jpg"); */
+    background-size:200%;
+    background-repeat:no-repeat;
+    background-position:top;
+}
+
+#tabs{
+    width: 1000px;
+    margin: auto;
+}
+
+/* This is the div container for the table */
+#table-wrapper {
+    width: 80%;
+    height: 500px;
+    overflow: auto;
+    margin: auto;
+    border-color: black;
+    border-width: 10px;
+    border: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: auto;
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+}
+
+.table-header {
+    background-color: black;
+    color: white;
+}
+
+.top-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.left-header {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+}
+
+.empty-cell {
+    position: sticky;
+    left: 0;
+    z-index: 3;
+}
+
+/* This is the div container fir the form */
+#form-wrapper{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Style the the field for the number input */
+input[type=number] {
+    width: 90px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline;
+}
+  
+/* Style the button */
+input[type=button] {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Add a background color to the button on mouse-over */
+input[type=button]:hover {
+    background-color:rgb(82, 82, 82);
+}
+.slider {
+    /* margin-top: 5px; */
+    /* margin-bottom: 10px; */
+    width: 380px;
+    display: inline;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+label {
+    font-size: 1.2rem;
+    width: 100%;
+}
+.input-wrapper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+form .error {
+    color: #ff0000;
+    margin: auto;
+    display: block;
+}
+.ui-icon-circle-close {
+    cursor:pointer;
+}
